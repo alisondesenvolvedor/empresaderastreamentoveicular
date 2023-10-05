@@ -697,5 +697,15 @@ h4.widget_heading {
 }
 
 
+/* Conteúdo do arquivo styles.css */
+@media (max-width: 767px) {
+    .col-lg-4.margin_top_30 {
+        margin-top: 0;
+    }
+
+    .benefits_list li {
+        margin-top: 10px;
+    }
+}
 
 
