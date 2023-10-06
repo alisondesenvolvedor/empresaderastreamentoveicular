@@ -1670,7 +1670,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .slider_cont_section h4 {
-    color: #f36b2a;
+    color: rgb(255, 24, 24);
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 700;
@@ -1700,7 +1700,7 @@ input[type="radio"] .styled:checked+label::after {
 .button_section a {
     width: 190px;
     height: 50px;
-    background: #f36b2a;
+    background: rgb(255, 24, 24);
     float: left;
     margin-right: 15px;
     line-height: 50px;
@@ -1897,7 +1897,7 @@ input[type="radio"] .styled:checked+label::after {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #f36b2a;
+    background: red;
 }
 
 a[data-toggle="collapse"] {
@@ -2300,12 +2300,49 @@ ul.social_links li a:focus {
   height: auto; /* Mantém a proporção da imagem */
 }
 
+.beneficios-custom {
+	background: #ffffff;
+	padding: 30px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.beneficios-custom .titulo h2 {
+	font-size: 24px;
+	color: #111111;
+	margin-bottom: 20px;
+}
 
+.beneficios-custom .icone-destaque img {
+	width: 75px;
+	margin-right: 20px;
+	float: left;
+}
 
+.beneficios-custom .lista-beneficios {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
 
+.beneficios-custom .lista-beneficios li {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #212222;
+	margin-bottom: 10px;
+}
 
+/* Estilos para links se necessário */
+.beneficios-custom .lista-beneficios a {
+	color: #38c8a8; /* Cor do link */
+	text-decoration: none; /* Remover sublinhado */
+}
 
+.beneficios-custom .lista-beneficios a:hover {
+	text-decoration: underline; /* Sublinhar ao passar o mouse */
+}
 
 
 
